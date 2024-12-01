@@ -1,0 +1,127 @@
+# Set any of enchant_notification to "" to disable them
+enchant_notifications:
+  application_withering: '&0Withered target'
+  application_poisoning: '&2Poisoned target'
+  application_stunning: '&9Stunned target'
+  application_blinding: '&0Blinded target'
+  application_nausea: '&5Nauseated target'
+  application_weakness: '&8Weakened target'
+  application_slowness: '&9Slowed target'
+  activation_deflect_projectile: '&8Projectile deflected!'
+
+enchantment_menu:
+  title: '&8&lCustom Enchantments'
+  name: '%name%'
+  lore:
+  - '&8&m                   [&r&7 ♦ &8&m]                   '
+  - '%description%'
+  - '&8&m                   [&r&7 ⭐ &8&m]                   '
+  - '&eĐộ Hiếm: &7%weight%'
+  - '&eLevel Tối ĐA: &7%lv_roman%'
+  - '&8&m                   [&r&7 ⚔ &8&m]                   '
+  - '&e%compatible_with%'
+  max_length: 35
+  button_nextpage:
+    # available, they will not be visible.
+    # Since the plugin has less than 45 enchantments by default, these buttons will not appear unless a custom
+    # plugin expanding on this plugin"s enchantments has been added.
+    icon: 'ARROW'
+    name: '&7Trang Sau'
+    lore:
+    - '&8Trang Hiện Tại &e%page%'
+  button_prevpage:
+    icon: 'ARROW'
+    name: '&7Trang Trước'
+    lore:
+    - '&8Trang Hiện Tại &e%page%'
+
+equipment_translations:
+  SWORDS: 'Kiếm'
+  BOWS: 'Cung'
+  CROSSBOWS: 'Nỏ'
+  TRIDENTS: 'Đinh ba'
+  HELMETS: 'Mũ'
+  CHESTPLATES: 'Giáp'
+  LEGGINGS: 'Quần'
+  BOOTS: 'Giày'
+  SHEARS: 'Kéo'
+  FLINTANDSTEEL: 'Bật Lửa'
+  FISHINGROD: 'Cần câu'
+  ELYTRA: 'Cánh'
+  AXES: 'Rìu'
+  PICKAXES: 'Cúp'
+  SHOVELS: 'Xẻng'
+  HOES: 'RÌU'
+  SHIELDS: 'Khiên'
+  ALL: 'Tất cả mọi thứ'
+  TRINKETS: 'Phụ kiện'
+
+
+
+# Warning when player attempts to combine items, but the item would have too many enchants as a result
+warning_allowed_enchants_exceeded: '&cBạn đã vượt quá số lượng phù phép cho phép: 5'
+# (1.14+) Warning when player clears items enchants with grindstone
+warning_grindstone_clear_all: '&cCảnh báo! Sử dụng đá mài cũng xóa luôn phù phép của bạn.'
+
+# Warning sent out if player uses invalid command
+warning_invalid_command: '&cLệnh không hợp lệ'
+
+# Warning sent out if player doesn't use a number in a command where a number is required
+warning_invalid_number: '&cSố không hợp lệ'
+
+# Warning sent out if player uses command they don't have permission for
+warning_no_permission: '&cBạn không có quyền sử dụng lệnh này'
+
+# Confirmation message when reloading
+reload_successful: '&aTải lại hoàn tất!'
+
+# Confirmation message when enchanting an item using the "/es enchant" command
+enchant_successful: '&aEnchant thành công!'
+# Failure message when enchanting an item using the "/es enchant" command and the player isn't holding an item
+enchant_failed: '&Bạn phải cầm một vật phẩm để Phù phép'
+# Warning message when enchanting an item using the "/es enchant" command and the player uses a level that is very high
+enchant_warning: '&cSử dụng mức độ Phù phép rất cao có thể gây ra độ trễ cực lớn hoặc không ổn định với một số Phù phép (ví dụ: Sóng xung kích(Shockwave))'
+# Description message within the "/es help" command of the enchant command
+enchant_description: 'Được sử dụng để Phù phép bất kỳ vật phẩm nào với bất kỳ Phù phép tùy chỉnh nào'
+
+# Description message within the "/es help" command of the help command
+help_description: 'Hiển thị tóm tắt tất cả các lệnh cho EnchantsSquared'
+
+# Description message within the "/es help" command of the reload command
+reload_description: 'Tải lại tất cả các cấu hình vào trò chơi'
+
+# Confirmation message when removing a line of lore/enchant with the "/es remove"
+remove_enchant_successful: '&a Thành công!'
+# Failure message when removing a line of lore/enchant off an item that has no lore
+remove_enchant_failed: '&a Thất bại!'
+# Description message within the "/es help" command of the remove enchant command
+remove_enchant_description: 'Loại bỏ một dòng truyền thuyết/Phù phép khỏi một vật phẩm được giữ. Số dòng bắt đầu từ 1'
+
+# Confirmation message when giving an enchanted item
+give_item_successful: '&aVật phẩm được đưa ra!'
+# Error message when the player enters an invalid item ID
+error_invalid_item: '&cID mặt hàng không hợp lệ'
+# Error message when the player doesn't enter enough or the proper arguments for the custom enchants and vanilla enchants
+error_invalid_syntax: '&ccú pháp không hợp lệ: %reason%'
+# Reason 1 part of error_invalid_syntax, when no (valid) level was given
+reason_invalid_level: '&cKhông hợp lệ/không có đủ cấp độ được đề ra'
+# Reason 2 part of error_invalid_syntax, when no (valid) enchantment was given
+reason_invalid_enchant: '&cPhù phép không hợp lệ'
+# Description message within the "/es help" command of the give enchanted item command
+give_item_description: 'Thêm một vật phẩm với Phù phép nhất định vào kho của người chơi'
+
+debug_description: 'Bật/tắt chế độ gỡ lỗi, chế độ này sẽ gửi thông báo trạng thái tới trình phát để giúp nhà phát triển khắc phục các sự cố có thể xảy ra'
+
+# Description message withing the "/es help" command of the enchant list command
+list_description: 'Hiển thị danh sách tất cả các Phù phép được kích hoạt cũng như mô tả'
+# Translation of "weight" or rarity within the "/es list" command
+eslist_weight: '&e Độ Hiếm: &7'
+# Translation of "max level" within the "/es list" command
+max_level_translation: '&eLevel Tối ĐA: &7%lv_roman%'
+# Translation of "compatible items" within the "/es list" command
+compatible_item_translation: '&eMón đồ tương thích: &7'
+# Description message within the "/es help" command of the enchant menu command
+menu_description: 'Hiển thị danh sách tất cả các Phù phépđược kích hoạt trong GUI tiện dụng'
+# Error message when the the command sender enters a player name of a player that isn"t online
+error_player_not_found: '&cPlayer không tìm thấy'
+error_invalid_targeter: '&cBộ chọn mục tiêu không đúng định dạng'

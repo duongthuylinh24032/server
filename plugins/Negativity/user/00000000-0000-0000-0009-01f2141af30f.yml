@@ -1,0 +1,18 @@
+playername: BE_Phatnopro120
+lang: en_US
+minerate-full-mined: 3245
+minerate:
+  diamond: 0
+  gold: 2
+  iron: 10
+  coal: 0
+  ancient debris: 0
+better-click: 8
+cheats:
+  speed: 14
+  inventorymove: 5
+  timer: 24
+  nuker: 24
+  forcefield: 1
+  spider: 5
+creation-time: 1687091307370

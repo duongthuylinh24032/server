@@ -1,0 +1,18 @@
+name: sunflower
+description: ''
+open: false
+pvp: false
+home: world:23544.982:69.0:-41828.805:-98.10608:54.52176
+color: '6'
+chests: []
+players:
+- 00000000-0000-0000-0009-01f505fa1a73,OWNER
+- 2fea06ca-0454-37ad-9683-923244663009,DEFAULT
+- 00000000-0000-0000-0009-01fae56bd751,DEFAULT
+level: 1
+tag: ''
+echest: {}
+score: 1
+warps:
+- trale;world:19774.35:47.0:-11579.008:-5.502533:38.462036;1
+- ghast;world_nether:3054.1448:128.0:-1622.3739:-73.364395:-6.3673096;1

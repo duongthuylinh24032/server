@@ -1,0 +1,17 @@
+playername: KaiMC09
+lang: en_US
+minerate-full-mined: 3509
+minerate:
+  diamond: 18
+  gold: 4
+  iron: 174
+  coal: 110
+  ancient debris: 0
+better-click: 23
+cheats:
+  inventorymove: 80
+  noslowdown: 2
+  timer: 5
+  forcefield: 1
+  speed: 9
+creation-time: 1686807002767

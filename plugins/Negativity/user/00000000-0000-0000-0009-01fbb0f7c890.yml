@@ -1,0 +1,13 @@
+playername: BE_DRAGONVNA
+lang: en_US
+minerate-full-mined: 25
+minerate:
+  diamond: 0
+  gold: 0
+  iron: 0
+  coal: 0
+  ancient debris: 0
+better-click: 4
+cheats:
+  nuker: 3
+creation-time: 1686485793888

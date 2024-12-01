@@ -1,0 +1,85 @@
+name: Void
+description: ''
+open: false
+pvp: false
+home: world_the_end:1230.5045049440116:39.0:-2805.300000011921:-136.64993:4.950003
+color: '5'
+chests: []
+players:
+- 8dd8f92b-26c0-376c-8b17-cc16a3719cc4,OWNER
+level: 1
+tag: ''
+score: 4
+echest:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3463
+    type: IRON_INGOT
+    amount: 64
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3463
+    type: QUARTZ
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"text":"White Boss Shard"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"One
+        of 6 "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Tier
+        1 "},{"italic":false,"color":"yellow","text":"shards"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Used
+        to craft "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Tier
+        2 "},{"italic":false,"color":"gold","text":"summon item:"}],"text":""}'
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Bell
+        of Doom"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Dropped
+        by Ghast Lord"}],"text":""}'
+      enchants:
+        LOYALTY: 1
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3463
+    type: CHAINMAIL_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Creeper
+        Gear"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Part
+        2"}],"text":""}'
+      Damage: 35
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3463
+    type: COBBLED_DEEPSLATE
+    amount: 11
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3463
+    type: IRON_INGOT
+    amount: 64
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3463
+    type: IRON_INGOT
+    amount: 64
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3463
+    type: GOLDEN_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Fish
+        Hat"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_blue","text":"Be
+        the fish."}],"text":""}'
+      enchants:
+        WATER_WORKER: 10
+        PROTECTION_ENVIRONMENTAL: 4
+warps:
+- clay;world:-596.8179859370662:-26.0:-1464.300000011921:51.89997:-4.499999
+- farm;world:561.0429692990409:215.0:-63.642613172998225:176.25122:-3.599731

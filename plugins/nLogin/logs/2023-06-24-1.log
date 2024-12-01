@@ -1,0 +1,26 @@
+[06/24/2023 03:03:31]:           __             _       
+[06/24/2023 03:03:31]:   _ __   / /  ___   __ _(_)_ __  
+[06/24/2023 03:03:31]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[06/24/2023 03:03:31]:  | | | / /__| (_) | (_| | | | | |
+[06/24/2023 03:03:31]:  |_| |_\____/\___/ \__, |_|_| |_|
+[06/24/2023 03:03:31]:                   |___/            
+[06/24/2023 03:03:31]:  By: www.nickuc.com - V 10.1.16
+[06/24/2023 03:03:31]: 
+[06/24/2023 03:03:31]: §3[nLogin] [DEBUG] Detecting hardware and software configurations...
+[06/24/2023 03:03:31]: §3[nLogin] [DEBUG] All settings were loaded in 93 ms.
+[06/24/2023 03:03:31]: §3[nLogin] [DEBUG] Loading the messages_vi.yml message file...
+[06/24/2023 03:03:31]: §3[nLogin] [DEBUG] All plugin messages were loaded in 36 ms (languageByClient=false).
+[06/24/2023 03:03:31]: §3[nLogin] [DEBUG] All proxy settings were loaded in 1 ms.
+[06/24/2023 03:03:31]: §3[nLogin] [DEBUG] Starting logger filter...
+[06/24/2023 03:03:31]: §3[nLogin] [DEBUG] Loading database...
+[06/24/2023 03:03:32]: §3[nLogin] [DEBUG] A plugin conversion is available.
+[06/24/2023 03:03:32]: [nLogin] nLogin was loaded in 851ms.
+[06/24/2023 03:03:48]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `realname` = 'bolicentor_0', `uniqueId` = f123b5afe9793693af7432aa147684a9,  `premiumId` = null,  `premium` = -1,  `password` = '$SHA512$7b88bd8382442c35c81967a6f1cde842f15afe79055d482172310124775dadce14f2cb42ea2a11f86ae9171443a9f1b217b9919165116c043ed9987ae5eed9ed$sAdMlbtVdNkKzDTGknLPXbPB', `address` = '3.104.78.15', `regdate` = 2023-06-23 15:23:36.657, `lastlogin` = 2023-06-24 03:03:48.359, `email` = null, `twitter` = null, `discord` = null, `settings` = '{"settings":[{"value":"WkcGuuGHJ0Pqq8Tq/D9k2ByO0tHlPwMbHE5TTI4vNqS8bYy4iUMw5KM9YnQ7J81rSfQSz3bCcULktG+w+MGyjX+2nNndO0xyzQh5c1FM2surdw5+CxySf7FTD6J/q/mPH2fknaJyxNALv5p6aOG/ZvduOUThbgbyk1JPpqFqEAOGRdbNyRhIfIi+tyIUFBsj4hgcZhcthXW8ds7uQ0DccbdL7fq7+pGyOCrt3h+q0RT6M0EA+7oNMqdY2odvIncxxZ3WSR9bYeJbKbt5YsBw55JjHnG21fYRIurBp/KwnN8rnUAAx1g8bmS9AbnLtckfDg5sunnX3LWWlDM1HjM7B5PLV3RGKxv6d+XaIUhdsWg8bzn9RMc0GnJc9RFHpEWr27CWwAOQ2x5cs9hW+OIVGXJeEx6PSGJJNJ6WQIRyIZwa2gz950Q6md/SRKn2DF/TvZASnW+MNxQ/yobJnFiuoe0+U6sDs9c7XnwKpQlmoxOI6Y5UKGeg1kYycYc1gHkViUVYeuZwqrhPFTKAA13RZMENuSBNsYWtH9lhFi/wNjEgcMyzA+JR+8YfaAERZutj1zoP59DSkSh50jaFZ9IKrplZ2wffpVMSbHv1JiP5t59AknLgy97uHez1xp33YsYUHox4UZOMlYdIq1BmMr8zkoLsWr3/ErHfFQwYkoMOm/I=:ydbL8bUA3dGmrB4PB/5TrTvOoUu2uPNTqKrgGFTGm8cDm151JKGhvEa655LUPyHUMbSF","key":"encrypted"}],"version":0}' WHERE `id` = 27"
+[06/24/2023 03:03:48]: [nLogin] The user bolicentor_0 has successfully logged in.
+[06/24/2023 03:04:55]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `realname` = 'BE_Chanhne', `uniqueId` = 49b0c66e22c43b85b18621996a0f4290,  `premiumId` = null,  `premium` = -1,  `password` = '$SHA512$52f70aa7354c11050ddd012cb044802d7fe199919914b812c27ac6cc5b82c905aad69fb56bc083f55a34938d9b1a6971ea32b1fcf28ad1046e6024159e2626b3$vlHAMAdhsfOJkuiKANvyKxWk', `address` = '113.185.50.157', `regdate` = 2023-06-23 06:11:40.264, `lastlogin` = 2023-06-24 03:04:55.865, `email` = null, `twitter` = null, `discord` = null, `settings` = '{"settings":[{"value":"QbnvB+GZDPmRYVvSqMXrMOQW8OkacHtIOlh5DZ78JEf1CmbFpa+5wke/1rGW7I0AqwuHsYxhn/92w+y8xd8+imcCK6UIHolKQaGMuiAJmgXjiIL8hj6iOt4hqrKOxDRDlPdOdU2fCfz14BtJRO+E0mN4PXmgNcGFjuGjs27crTmhhP5colMjpAb9DLvLl2cGuKGVjNacZjzJc4VKVGJ6LXn3uZ3UqEUjQ5Mhhizh1LwjB1i3fBQLkUot/nk1hmMULPZZ68XMr8xM+qRwMNJmSL/eyUZ6g6eiOd4YY+fXMMgTW6LEb04XyddZgodPMefnoknrkniaaLyi4PqR6AifCBucp3fPGUwzbeJJXZZR6wczQjbqb2dHPdQVCJcofkmbP8DhV6FEDVgx+RmyJfUGoGWQ/w67SoJgiZPBJ6vqAWI0VBpc4wkfsREK/MefOHp4xRRwVH2OFQDWq30DWqH28g8bpNmqHqAqOfazpKMf72K4fRF0tATAE7gQ2DBFtLyjv1jZ134R8BpUeuHdqT/VJPrfxI8iblNCcAoYT/KO0SrHlM4ta4kJkv4k85UFaLYt61Z/SyHZQ8s7Gy9cQaS1mIa1vUev8a2of50uqmNNMlkldn3JCRq+3Pb4rS5W7qcG2zhwAwz9pqagycmg/J1n9LH4hK2KcOc4/JwKzq+/yx4=:DZ38GXHbRzeeS7KbMY4UYVmSD5HvtnLBZarlaBanBXqNjYwWh++2sAJVxKfIi1rvRi859/Q=","key":"encrypted"}],"version":0}' WHERE `id` = 24"
+[06/24/2023 03:04:55]: [nLogin] The user BE_Chanhne has successfully logged in.
+[06/24/2023 03:17:27]: [nLogin] Successful plugin core shutdown (took 0.00s)
+[06/24/2023 03:17:27]: [nLogin] 
+[06/24/2023 03:17:27]: [nLogin] Shutting down nLogin V 10.1.16...
+[06/24/2023 03:17:27]: [nLogin] 
+[06/24/2023 03:17:27]: [nLogin] nLogin was unloaded in 2ms.

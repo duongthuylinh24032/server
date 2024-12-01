@@ -1,0 +1,16 @@
+playername: goyg
+lang: en_US
+minerate-full-mined: 3
+minerate:
+  diamond: 0
+  gold: 0
+  iron: 0
+  coal: 0
+  ancient debris: 0
+better-click: 0
+cheats:
+  speed: 130
+  fly: 23
+  airjump: 8
+  step: 10
+creation-time: 1687241100020

@@ -1,0 +1,15 @@
+name: 69style
+description: ''
+open: false
+pvp: false
+home: ''
+color: '3'
+chests: []
+players:
+- c5b1c28e-a161-3e51-a4d8-07a6bf77fcf4,OWNER
+level: 1
+tag: ''
+score: 0
+warps:
+- 2;world_the_end:1514.8038013890446:1.0:775.0228955062535:17.123117:28.35691
+echest: {}

@@ -1,0 +1,20 @@
+name: James
+description: ''
+open: false
+pvp: false
+home: world:-15109.5:71.0:15669.5:98.05298:0.0
+color: b
+chests: []
+players:
+- 00000000-0000-0000-0009-01fc491ce58b,OWNER
+- 00000000-0000-0000-0009-01fdfadaad57,DEFAULT
+- 00000000-0000-0000-0009-01faeb862ed6,DEFAULT
+- 00000000-0000-0000-0009-01ff52ac6f05,DEFAULT
+- 00000000-0000-0000-0009-01fc9f4ee2a2,DEFAULT
+level: 1
+tag: ''
+score: 0
+echest: {}
+warps:
+- enderfarm;world_the_end:1512.4492:1.0:772.64484:-173.85019:45.19583;3
+- theend;world:-13949.744:40.5:14151.859:-179.36935:24.30458;1

@@ -1,0 +1,346 @@
+Teleport:
+  eventBeforeTP: '&b↑ &8» &7dịch chuyển sau &b{countdown} giây'
+  # This is an example use for titles and subtitles in the plugin.
+  # This feature is supported only if you're on version 1.8.8 or newer.
+  eventBeforeTP_title:
+    # How many seconds (in ticks) the header should last. This is not including fading.
+    length: 80
+    # How many seconds (in ticks) the header should take to fade in.
+    fade-in: 0
+    # How many seconds (in ticks) the header should take to fade out.
+    fade-out: 10
+    '0': '&7&lĐang dịch chuyển...'
+    '20': '&b> &7&lĐang dịch chuyển ... &b<'
+    '40': '&b>> &7&lĐang dịch chuyển ... &b<<'
+    '60': '&b>>> &e&lDịch chuyển thành công! &b<<<'
+  eventBeforeTP_subtitle:
+    '0': '&bxin vui lòng không di chuyển!'
+    '60': ok
+  eventBeforeTPMovementAllowed: '&b↑ &8» &7dịch chuyển sau  &b{countdown} giây&7!'
+  eventTeleport: '&b↑ &8» &7Đang dịch chuyển ...'
+  eventMovement: '&b↑ &8» &7chuyển dịch đã bị hủy do di chuyển.'
+  eventMovement_title:
+    length: 60
+    fade-in: 0
+    fade-out: 10
+    '0': '&e&l! &c&lhủy bỏ &e&l!'
+  teleportingToSpawn: '&b↑ &8» &7Đã dịch chuyển đến spawn!'
+  teleporting: '&b↑ &8» &7Đã dịch chuyển đến &b{player}&7!'
+  teleportingToHome: '&b↑ &8» &7Đã dịch chuyển đến &b{home}&7!'
+  teleportingToHomeOther: '&b↑ &8» &7Đã dịch chuyển đến &b{player}&7''s home, &b{home}&7!'
+  teleportingToWarp: '&b↑ &8» &7Teleporting you to &b{warp}&7!'
+  teleportingPlayerToSelf: '&b↑ &8» &7Đã dịch chuyển &b{player} &7Đến bạn!'
+  teleportingSelfToPlayer: '&b↑ &8» &7Đã dịch chuyển đến  &b{player}&7!'
+  teleportingToRandomPlace: '&b↑ &8» &7đã dịch chuyển đến vị trí ngẫu nhiên!'
+  teleportingToLastLoc: '&b↑ &8» &7Đã dịch chuyển đến vị trí cuối cùng của bạn!'
+  teleportedToOfflinePlayer: '&b↑ &8» &7Đã dịch chuyển đến người chơi &b{player}&7
+    offline!'
+  teleportedOfflinePlayerHere: '&b↑ &8» &7Đã dịch chuyển đến vị trí cuối cùng người
+    chơi &b{player}&7 offline!'
+Error:
+  noPermission: '&b↑ &8» &7Bạn không có quyền sử dụng lệnh này!'
+  noPermissionSign: '&b↑ &8» &7Bạn không được phép làm điều này!'
+  featureDisabled: '&b↑ &8» &7Tính năng này đã bị vô hiệu hóa!'
+  noRequests: '&b↑ &8» &7Bạn không có bất kỳ yêu cầu đang chờ xử lý nào!'
+  tpOff: '&b↑ &8» &b{player}&7 đã vô hiệu hóa dịch chuyển của họ!'
+  tpBlock: '&b↑ &8» &7Bạn đã bị &b{player} &7chặn!'
+  alreadyOn: '&b↑ &8» &7Yêu cầu dịch chuyển của bạn đã được kích hoạt!'
+  alreadyOff: '&b↑ &8» &7Yêu cầu dịch chuyển đến vị trí của bạn của bạn đã bị vô hiệu
+    hóa!'
+  alreadyBlocked: '&b↑ &8» &7Người chơi này đã bị chặn!'
+  neverBlocked: '&b↑ &8» &7Người chơi này chưa bao giờ bị chặn!'
+  onCooldown: '&b↑ &8» &7Vui lòng đợi thêm &b{time} &7giây để sử dụng lệnh này!'
+  requestSentToSelf: '&b↑ &8» &7Bạn không thể gửi yêu cầu cho chính mình!'
+  noSuchPlayer: '&b↑ &8» &7người chơi hiện đang ngoại tuyến hoặc không tồn tại!'
+  alreadySentRequest: '&b↑ &8» &7Bạn đã gửi yêu cầu tới &7{player}&b!'
+  notEnoughEXP: |-
+    &b↑ &8» &7Bạn không có đủ Cấp độ EXP để dịch chuyển đến đó!
+    &b↑ &8» &7Bạn cần ít nhất &b{levels} &7EXP!
+  notEnoughEXPPoints: |-
+    &b↑ &8» &7You do not have enough EXP Points to teleport there!
+    &b↑ &8» &7You need at least &b{points} &7EXP points!
+  notEnoughMoney: |-
+    &b↑ &8» &7You do not have enough money to teleport there!
+    &b↑ &8» &7You need at least &b${amount}&7!
+  requestExpired: '&b↑ &8» &7Yêu cầu dịch chuyển của bạn đến &b{player}&7 đã hết hạn!'
+  noPlayerInput: '&b↑ &8» &7phải bao gồm tên người chơi!'
+  blockSelf: '&b↑ &8» &7bạn không thể tự chặn bản thân của mình!'
+  noRequestsFromPlayer: '&b↑ &8» &7Bạn không có bất kỳ yêu cầu đang chờ xử lý nào
+    từ &b{player}&7!'
+  invalidPageNo: '&b↑ &8» &7Bạn đã chèn một số trang không hợp lệ!'
+  noHomeInput: '&b↑ &8» &7phải bao gồm một tên home!'
+  noSuchHome: '&b↑ &8» &7home này không tồn tại!'
+  noBedHome: '&b↑ &8» &7bạn không có bất gì set spawn trwn chiếc giường nào!'
+  noBedHomeOther: '&b↑ &8» &b{player} &7bạn không có bất gì set spawn trwn chiếc giường
+    nào!'
+  reachedHomeLimit: '&b↑ &8» &7bạn không thể đặt thêm homes nữa!'
+  homeAlreadySet: '&b↑ &8» &7Bạn đã có home với tên là&b{home}&7!'
+  noWarpInput: '&b↑ &8» &7TÍNH NĂNG VÔ HIỆU HÓA!'
+  noSuchWarp: '&b↑ &8» &7TÍNH NĂNG VÔ HIỆU HÓA!'
+  warpAlreadySet: '&b↑ &8» &7TÍNH NĂNG VÔ HIỆU HÓA  &b{warp}&7!'
+  noSuchWorld: '&b↑ &8» &7TÍNH NĂNG VÔ HIỆU HÓA!'
+  noLocation: '&b↑ &8» &7Bạn không có bất kỳ vị trí nào để dịch chuyển trở lại!'
+  notAPlayer: '&b↑ &8» &7Bạn phải là người chơi để chạy lệnh này!'
+  noHomes: '&b↑ &8» &7Bạn chưa có bất kỳ homes!'
+  noHomesOtherPlayer: '&b↑ &8» &b{player} &7chưa có bất kỳ homes!'
+  tooFarAway: '&b↑ &8» &7Điểm dịch chuyển quá xa nên bạn không thể dịch chuyển đến
+    đó!'
+  noRequestsSent: '&b↑ &8» &7Không thể gửi yêu cầu cho bất cứ ai :('
+  onCountdown: '&b↑ &8» &7Bạn không thể sử dụng lệnh này trong khi chờ dịch chuyển! '
+  noPermissionWarp: '&b↑ &8» &7TÍNH NĂNG VÔ HIỆU HÓA  &b{warp}&7!'
+  cantTPToWorld: '&b↑ &8» &7Bạn không thể dịch chuyển ngẫu nhiên trong thế giới đó!'
+  cantTPToWorldLim: '&b↑ &8» &7Bạn không thể dịch chuyển đến &b{world}&7!'
+  tooFewArguments: '&b↑ &8» &7Quá ít số!'
+  invalidArgs: '&b↑ &8» &7số không hợp lệ!'
+  cantTPToPlayer: '&b↑ &8» &7Bạn không thể yêu cầu dịch chuyển đến &b{player}&7!'
+  noWarps: '&b↑ &8» &7TÍNH NĂNG VÔ HIỆU HÓA!'
+  noAccessHome: '&b↑ &8» &7Hiện tại bạn không thể truy cập &b{home}&7!'
+  moveHomeFail: '&b↑ &8» &7Đã chuyển home nhưng dữ liệu chưa được lưu trữ thành công.
+    Plugin sẽ cố gắng tự sửa lỗi này.'
+  setMainHomeFail: '&b↑ &8» &7Đã chuyển home nhưng dữ liệu chưa được lưu trữ thành
+    công.Plugin sẽ cố gắng tự sửa lỗi này.'
+  deleteHomeFail: '&b↑ &8» &7Đã xóa home nhưng dữ liệu chưa được lưu trữ thành công.Plugin
+    sẽ cố gắng tự sửa lỗi này.'
+  setHomeFail: '&b↑ &8» &7home đã được đặt nhưng dữ liệu chưa được lưu trữ thành công.
+    Plugin sẽ cố gắng tự sửa lỗi này.'
+  deleteWarpFail: '&b↑ &8» &7TÍNH NĂNG VÔ HIỆU HÓA .Plugin sẽ cố gắng tự sửa lỗi này.'
+  purgeWarpsFail: '&b↑ &8» &7TÍNH NĂNG VÔ HIỆU HÓA. Vui lòng kiểm tra bảng điều khiển
+    để biết thêm thông tin.'
+  purgeHomesFail: '&b↑ &8» &7Không thể xóa homes. Vui lòng kiểm tra bảng điều khiển
+    để biết thêm thông tin.'
+  homesNotLoaded: '&b↑ &8» &7home của người chơi này chưa được tải, vui lòng đợi một
+    chút (thậm chí chỉ một giây) trước khi thử lại!'
+  noOfflineLocation: '&b↑ &8» &7Không tìm thấy vị trí ngoại tuyến nào cho &b{player}&7!'
+  failedOfflineTeleport: '&b↑ &8» &7Không dịch chuyển được đến người chơi &b{player}&7
+    ngoại tuyến!'
+  failedOfflineTeleportHere: '&b↑ &8» &7Không dịch chuyển đượ người chơi &b{player}&7
+    ngoại tuyến đến vị trí của bạn!'
+  alreadySearching: '&b↑ &8» &7Đã tìm kiếm một vị trí để dịch chuyển đến!'
+  mirrorSpawnNoArguments: '&b↑ &8» &7Không có worlds/spawn points đã được chỉ định!'
+  mirrorSpawnLackOfArguments: '&b↑ &8» &7You must be a player to only specify one
+    world - please specify a world and a spawnpoint to mirror players to!'
+  noSuchSpawn: '&b↑ &8» &7There is no such spawn called &b{spawn}&7!'
+  cannotSetMainSpawn: '&b↑ &8» &7Bạn chỉ có thể biến các spawnpoint hiện có thành
+    spawnpoints chính thay vì tạo các điểm mới!'
+  cannotSetMainSpawnConsole: '&b↑ &8» &7Bạn chỉ có thể biến các spawnpoint hiện có
+    thành spawnpoint chính thay vì tạo các điểm mới vì bạn không phải là người chơi!'
+  nonAlphanumericSpawn: '&b↑ &8» &7Spawnpoints cần phải là chữ và số!'
+  removeSpawnNoArgs: '&b↑ &8» &7bạn cần là một op!'
+  noSuchPlugin: '&b↑ &8» &7Plugin này không được hỗ trợ cho importing/exporting!'
+  cantImport: '&b↑ &8» &7Không thể nhập dữ liệu plugin từ &b{plugin} &7(make sure
+    it''s enabled and by the correct authors)!'
+  cantExport: '&b↑ &8» &7Không thể xuất dữ liệu plugin từ &b{plugin} &7(make sure
+    it''s enabled and by the correct authors)!'
+  notEnoughItems: |-
+    &b↑ &8» &7Bạn không có đủ vật phẩm để dịch chuyển đến đó!
+    &b↑ &8» &7Bạn cần ít nhất &b{amount} {type}(s)!
+  mirrorSpawnFail: '&b↑ &8» &7Failed to mirror &b{from}&7''s spawnpoint to &b{spawn}&7!'
+  removeSpawnFail: '&b↑ &8» &7Failed to remove the spawnpoint &b{spawn}&7!'
+  setMainSpawnFail: '&b↑ &8» &7Failed to set the main spawnpoint &b{spawn}&7!'
+  rtpManagerNotUsed: '&b↑ &8» &7The feature required for this command is not enabled!'
+Info:
+  tpOff: '&b↑ &8» &7Đã tắt yêu cầu dịch chuyển đến vị trí của bạn!'
+  tpOn: '&b↑ &8» &7Đã bật yêu cầu dịch chuyển đến vị trí của bạn!'
+  tpAdminOff: '&b↑ &8» &7Đã tắt yêu cầu dịch chuyển &b{player}&7!'
+  tpAdminOn: '&b↑ &8» &7Đã bật yêu cầu dịch chuyển đến vị trí của bạn cho &b{player}&7!'
+  requestSent: "&b↑ &8»&7 Đã gửi thành công yêu cầu tới &b{player}&7! \n&b↑ &8»&7\
+    \ Họ có &b{lifetime}&7 để phản hồi! \n&7Để hủy yêu cầu, hãy sử dụng &b/tpcancel\
+    \ &7để hủy yêu cầu.\n            [&7&l[CANCEL]](/tpcancel {player})\n&7"
+  tpaRequestReceived: |-
+    &b↑ &8» &7Người chơi &b{player}&7 muốn dịch chuyển đến bạn!
+    &b↑ &8» &7Nếu bạn muốn chấp nhận, hãy sử dụng &b/tpayes&7, nhưng nếu không, hãy sử dụng &b/tpano&7.
+    &b↑ &8» &7Bạn có &b{lifetime}&7 để phản hồi!
+                [&a&l[CHẤP NHẬN]](/tpayes {player}|&aNhấp vào đây để chấp nhận yêu cầu.) [&c&l[DENY]](/tpano {player}|&cNhấp vào đây để từ chối yêu cầu.)
+    &7
+  tpaRequestHere: |-
+    &b↑ &8» &7Người chơi &b{player}&7 muốn dịch chuyển bạn đến chỗ của họ!
+    &b↑ &8» &7Nếu bạn muốn chấp nhận, hãy sử dụng &b/tpayes&7, nhưng không, hãy sử dụng &b/tpano&7.
+    &b↑ &8» &7Bạn có &b{lifetime} giây&7 để trả lời!
+                [&a&l[CHẤP NHẬP]](/tpayes {player}|&aNhấp vào đây để chấp nhận yêu cầu.) [&c&l[DENY]](/tpano {player}|&cNhấp vào đây để từ chối yêu cầu.)
+    &7
+  blockPlayer: '&b↑ &8» &b{player} &7đã bị chặn.'
+  tpCancel: '&b↑ &8» &7Bạn đã hủy yêu cầu dịch chuyển của mình.'
+  tpCancelResponder: '&b↑ &8» &b{player} &7đã hủy yêu cầu dịch chuyển của họ.'
+  multipleRequestsCancel: '&b↑ &8» &7Bạn có nhiều yêu cầu dịch chuyển đang chờ xử
+    lý!. Nhấp vào một trong các tùy chọn sau để hủy:'
+  multipleRequestsIndex: '&b> {player}'
+  multipleRequestsList: '&b↑ &8» &7Dùng /tpalist <số trang> Để kiểm tra các yêu cầu
+    khác.'
+  multipleRequestAccept: '&b↑ &8» &7Bạn có nhiều yêu cầu dịch chuyển đang chờ xử lý!.
+    Nhấp vào một trong các tùy chọn sau để chấp nhận:'
+  multipleRequestDeny: '&b↑ &8» &7Bạn có nhiều yêu cầu dịch chuyển đang chờ xử lý!.
+    Nhấp chuột một trong những điều sau đây để từ chối:'
+  requestDeclined: '&b↑ &8» &7Bạn đã từ chối yêu cầu dịch chuyển!'
+  requestDeclinedResponder: '&b↑ &8» &b{player} &7 đã từ chối yêu cầu dịch chuyển
+    của bạn!'
+  requestDisplaced: '&b↑ &8» &7Yêu cầu của bạn đã bị hủy vì &b{player} &7có một yêu
+    cầu khác!'
+  deletedHome: '&b↑ &8» &7Đã xóa thành công home &b{home}&7!'
+  deletedHomeOther: '&b↑ &8» &7Đã xóa thành công home &b{home} &7bởi &b{player}&7!'
+  setHome: '&b↑ &8» &7Successfully set the home &b{home}&7!'
+  setHomeOther: '&b↑ &8» &7Successfully set the home &b{home} &7for &b{player}&7!'
+  setSpawn: '&b↑ &8» &7Successfully set the spawnpoint!'
+  setWarp: '&b↑ &8» &7Successfully set the warp &b{warp}&7!'
+  deletedWarp: '&b↑ &8» &7Đã xóa thành công warp &b{warp}&7!'
+  purgeWarpsWorld: '&b↑ &8» &7Successfully purged warps in &b{world}&7!'
+  purgeWarpsCreator: '&b↑ &8» &7Successfully purged warps created by &b{player}&7!'
+  purgeHomesWorld: '&b↑ &8» &7Đã xóa thành công &b{world}&7!'
+  purgeHomesCreator: '&b↑ &8» &7Đã xóa thành công những ngôi nhà được tạo cho &b{player}&7!'
+  searching: '&b↑ &8» &7Tìm kiếm vị trí...'
+  unblockPlayer: '&b↑ &8» &7Đã bỏ chặn thành công &b{player}&7!'
+  reloadingConfig: '&b↑ &8» &7Reloading &bAdvancedTeleport&7''s config...'
+  reloadedConfig: '&b↑ &8» &7Finished reloading the config!'
+  warps: '&b&lWarps &8» &r'
+  homes: '&b&lHomes &8» &r'
+  homesOther: '&b&l{player}s homes &8» &r'
+  requestAccepted: '&b↑ &8» &7Bạn đã chấp nhận yêu cầu dịch chuyển!'
+  requestAcceptedResponder: '&b↑ &8» &b{player} &7đã chấp nhận yêu cầu dịch chuyển!'
+  paymentVault: '&b↑ &8» &7You have paid &b${amount} &7and now have &b${balance}&7!'
+  paymentEXP: '&b↑ &8» &7You have paid &b{amount} EXP Levels &7and now have &b{levels}
+    &7levels!'
+  paymentPoints: '&b↑ &8» &7You have paid &b{amount} EXP Points &7and now have &b{points}
+    &7points!'
+  createdWarpSign: '&b↑ &8» &7Successfully created the warp sign!'
+  createdRTPSign: '&b↑ &8» &7Đã tạo thành công RandomTP!'
+  createdSpawnSign: '&b↑ &8» &7Đã tạo thành công spawn!'
+  tpallRequestSent: '&b↑ &8» &7Đã gửi thành công yêu cầu dịch chuyển tới &b{amount}
+    &7player(s)!'
+  teleportedToLoc: '&b↑ &8»&7 Đã dịch chuyển thành công bạn đến &b{x}& 7, & b{y}&
+    7, &b{z}&7! (Yaw: &b{yaw}&7, Pitch: &b{pitch}&7, World: &b{world}&7)'
+  teleportedToLocOther: '&b↑ &8» &7dịch chuyển thành công &b{player} &7to &b{x}&7,
+    &b{y}&7, &b{z}&7! (Yaw: &b{yaw}&7, Pitch: &b{pitch}&7, World: &b{world}&7)'
+  movedWarp: '&b↑ &8» &7Moved &b{warp} &7to your current location!'
+  movedHome: '&b↑ &8» &7đã chuyển home &b{home} &7tới vị trí hiện tại của bạn!'
+  movedHomeOther: '&b↑ &8» &7Moved &b{player}''s &7home &b{home} &7đến vị trí của
+    bạn!'
+  setMainHome: '&b↑ &8» &7Tạo &b{home}&7 thành nhà chính của bạn!'
+  setAndMadeMainHome: '&b↑ &8» &7đặt &b{home} &7tại vị trí hiện tại của bạn và biến
+    nó thành nhà chính của bạn!'
+  setMainHomeOther: '&b↑ &8» &7Made &b{home} {player}''s &7main home!'
+  setAndMadeMainHomeOther: '&b↑ &8» &7Đặt &b{home} &7cho &b{player} &7tại vị trí hiện
+    tại của bạn và biến nó thành nhà chính của họ!'
+  mirroredSpawn: '&b↑ &8» &7Mirrored &b{from}&7''s spawnpoint to &b{spawn}&7!'
+  setMainSpawn: '&b↑ &8» &7Đặt spawnpoint chính thành &b{spawn}&7! Tất cả người chơi
+    sẽ dịch chuyển đến đó nếu không có spawns nào ghi đè/permissions.'
+  removedSpawn: '&b↑ &8» &7Di chuyển spawnpoint &b{spawn}&7!'
+  setSpawnSpecial: '&b↑ &8» &7đặt spawnpoint &b{spawn}&7!'
+  importStarted: '&b↑ &8» &7Bắt đầu nhập từ &b{plugin}&7...'
+  importFinished: '&b↑ &8» &7Đã hoàn tất nhập từ &b{plugin}&7!'
+  exportStarted: '&b↑ &8» &7Bắt đầu xuất sang &b{plugin}&7...'
+  exportFinished: '&b↑ &8» &7Hoàn tất xuất sang &b{plugin}&7!'
+  paymentItems: '&b↑ &8» &7You have paid &b{amount} {type}(s) &7for that teleport!'
+  updateInfo: ''
+  clearEverything: '&b↑ &8» &7cache RTP đã bị xóa hoàn toàn!'
+  clearWorld: '&b↑ &8» &7cache RTP đã bị xóa cho {world}!'
+Tooltip:
+  homes: '&b↑ &8» &7Dịch chuyển bạn đến home: &b{home}'
+  warps: '&b↑ &8» &7TÍNH NĂNG VÔ HIỆU HÓA : &b{warp}'
+  location: |-
+    &bX &8» &7{x}
+    &bY &8» &7{y}
+    &bZ &8» &7{z}
+    &bThế giới &8» &7{world}
+Descriptions:
+  Subcommands:
+    help: Gửi menu trợ giúp, cung cấp danh sách đầy đủ các lệnh.
+    info: Gửi thông tin liên quan đến plugin.
+    import: Nhập dữ liệu từ plugin khác để nó có thể được sử dụng trong AT.
+    export: Xuất dữ liệu trong AT sang plugin khác.
+    reload: Tải lại cấu hình của plugin.
+    clearcache: Xóa cache RTP.
+  at: Lệnh cốt lõi cho AT.
+  tpa: dịch chuyển đến vị trí của người kháci.
+  tpahere: Gửi yêu cầu cho người chơi khác dịch chuyển đến bạn.
+  tpyes: Chấp nhận yêu cầu dịch chuyển của người chơi.
+  tpno: Từ chối yêu cầu dịch chuyển của người chơi khác.
+  tpcancel: Hủy yêu cầu dịch chuyển của bạn tới người chơi khác.
+  toggletp: Dừng hoặc cho phép người chơi gửi yêu cầu dịch chuyển đến bạn.
+  tpon: Cho phép người chơi gửi yêu cầu dịch chuyển đến bạn.
+  tpoff: Ngăn người chơi gửi yêu cầu dịch chuyển cho bạn.
+  tpblock: chặn người chơi có thể gửi yêu cầu dịch chuyển đến bạn.
+  tpunblock: bỏ chặn người chơi có thể gửi yêu cầu dịch chuyển đến bạn.
+  back: Dịch chuyển bạn đến vị trí trước đó của bạn.
+  tpalist: Liệt kê tất cả các yêu cầu dịch chuyển hiện tại của bạn.
+  tpo: Instantly teleports you to a player.
+  tpohere: Instantly teleports a player to you.
+  tpall: Gửi yêu cầu dịch chuyển tới mọi người trong máy chủ cho bạn.
+  tploc: Dịch chuyển bạn đến một địa điểm cụ thể.
+  tpoffline: Dịch chuyển bạn đến một người chơi ngoại tuyến.
+  tpofflinehere: Dịch chuyển người chơi ngoại tuyến tới bạn.
+  tpr: Dịch chuyển bạn đến một vị trí ngẫu nhiên.
+  warp: TÍNH NĂNG VÔ HIỆU HÓA
+  warps: TÍNH NĂNG VÔ HIỆU HÓA
+  setwarp: TÍNH NĂNG VÔ HIỆU HÓA.
+  delwarp: TÍNH NĂNG VÔ HIỆU HÓA.
+  movewarp: TÍNH NĂNG VÔ HIỆU HÓA .
+  spawn: Đã dịch chuyển đến spawnpoint.
+  setspawn: đặt spawnpoint tại vị trí của bạn.
+  mirrorspawn: Chuyển hướng những người sử dụng /spawn ở thế giới này sang điểm spawn
+    khác.
+  setmainspawn: Đặt một spawnpoint được chỉ định để trở thành spawnpoint chính. Nếu
+    nó không tồn tại, nó sẽ được tạo nếu bạn có quyền /setspawn.
+  removespawn: Xóa một spawnpoint đã chỉ định. Nếu không có cái nào được chỉ định,
+    cái trong thế giới hiện tại của bạn sẽ bị xóa.
+  home: Đã dịch chuyển đến home.
+  homes: lấy danh sách các homes của bạn.
+  sethome: Đặt home tại vị trí hiện tại của bạn.
+  delhome: Xóa một home được chỉ định.
+  movehome: Chuyển home đến vị trí mới.
+  setmainhome: Đặt một ngôi nhà tại vị trí của bạn hoặc biến một ngôi nhà hiện có
+    thành ngôi nhà chính của bạn.
+  purge: TÍNH NĂNG VÔ HIỆU HÓA.
+Usages:
+  Subcommands:
+    help: /at help [lệnh|số trang]
+    info: /at info
+    import: /at import <Plugin> [All|Homes|LastLocs|Warps|Spawns|Players]
+    export: /at export <Plugin> [All|Homes|LastLocs|Warps|Spawns|Players]
+    purge: /at purge <Homes|Warps> <Player|World> <Player Name|World Name>
+    reload: /at reload
+    clearcache: /at clearcache [Thế giới]
+  at: /at <lệnh>
+  tpa: /tpa <tên người chơi>
+  tpahere: /tpahere <tên người chơi>
+  tpyes: /tpyes [Tên người chơi]
+  tpno: /tpno [Tên người chơi]
+  tpcancel: /tpcancel [Tên người chơi]
+  toggletp: /toggletp
+  tpon: /tpon
+  tpoff: /tpoff
+  tpblock: /tpblock <tên người chơi> [lý do]
+  tpunblock: /tpunblock <tên người chơi>
+  back: /back
+  tpalist: /tpalist
+  tpo: /tpo <tên người chơi>
+  tpohere: /tpohere <tên người chơi>
+  tpall: /tpall
+  tploc: /tploc <x|~> <y|~> <z|~> [Yaw|~] [Pitch|~] [World|~] [Tên người chơi] [precise|lý
+    do]
+  tpoffline: /tpoffline <tên người chơi>
+  tpofflinehere: /tpofflinehere <tên người chơi>
+  tpr: /tpr [Thế giới]
+  warp: /warp <Warp>
+  warps: /warps
+  setwarp: /setwarp <Name>
+  delwarp: /delwarp <Name>
+  movewarp: /movewarp <Name>
+  spawn: /spawn
+  setspawn: /setspawn [ID]
+  mirrorspawn: /mirrorspawn <To Point>|[From World] [To Point]
+  setmainspawn: /setmainspawn [Point]
+  removespawn: /removespawn [Point]
+  home: /home [Tên nhà]
+  homes: /homes
+  sethome: /sethome <Tên>
+  delhome: /delhome <Tên nhà>
+  movehome: /movehome <Tên nhà>
+  setmainhome: /setmainhome <Tên nhà>
+Usages-Admin:
+  tpr: /tpr [Thế giới] [Tên người chơi]
+  home: /home [Tên nhà]|<tên người chơi> <Tên nhà>
+  homes: /homes [Tên người chơi]
+  delhome: /delhome <Tên nhà>|<tên người chơi> <Tên nhà>
+  sethome: /sethome <Tên>|<tên người chơi> <Tên>
+  movehome: /movehome <Tên nhà>|<tên người chơi> <Tên nhà>
+  setmainhome: /setmainhome <Tên nhà>|<tên người chơi> <Tên nhà>
+  spawn: /spawn <ID>

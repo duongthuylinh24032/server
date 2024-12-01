@@ -1,0 +1,489 @@
+name: HIV
+description: ''
+open: false
+pvp: true
+home: world:-68823.70029869379:64.0:-65875.43251229064:-179.82043:13.752712
+color: '5'
+chests: []
+players:
+- 682f42e1-306b-3f6b-8d54-f62d4fa7de8e,OWNER
+- 00000000-0000-0000-0009-01f0674bc669,DEFAULT
+level: 1
+tag: ''
+echest:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: DIAMOND_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Grave
+        Digger"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Dropped
+        by Zombie King"}],"text":""}'
+      enchants:
+        DIG_SPEED: 9
+        DURABILITY: 9
+      Damage: 891
+  '17':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: FEATHER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Angel
+        Feather"}],"text":""}'
+      enchants:
+        DURABILITY: 1
+  '26':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: NAUTILUS_SHELL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Shell
+        of 7 Seas"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"He
+        who holds the shell"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"controlls
+        the sea."}],"text":""}'
+      enchants:
+        DURABILITY: 1
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: DIAMOND_HOE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"italic":false,"color":"red","text":"★The Undertaker★"}'
+      lore:
+      - '{"italic":false,"color":"yellow","text":"It has an almost ghostly appearance..."}'
+      - '{"italic":false,"color":"red","text":"Legendary"}'
+      enchants:
+        FIRE_ASPECT: 5
+        DAMAGE_ALL: 6
+        DAMAGE_UNDEAD: 2
+        DURABILITY: 4
+      attribute-modifiers:
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.27103233337402344
+          name: ''
+          slot: HAND
+          uuid: 5fa1ef05-d801-4efe-9e5f-a38cf6ff26ff
+          operation: 1
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 9.041387557983398
+          name: ''
+          slot: HAND
+          uuid: 3e614baa-94ab-40f7-9713-60bb127b796f
+          operation: 0
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.4910717010498047
+          name: ''
+          slot: HAND
+          uuid: 7dbf740d-7b67-4b5d-ae44-4fd1870675a6
+          operation: 1
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 14.73914909362793
+          name: ''
+          slot: HAND
+          uuid: 604c7173-b26b-4c37-9abd-8206cb701b0a
+          operation: 0
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 6.410311698913574
+          name: ''
+          slot: HAND
+          uuid: 79299ef3-6a39-4a36-ade3-6b04f09ab302
+          operation: 0
+        GENERIC_ARMOR_TOUGHNESS:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.343546152114868
+          name: ''
+          slot: HAND
+          uuid: 3062f8e5-acd2-441d-9aeb-54d3265cb15d
+          operation: 0
+      Unbreakable: true
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"italic":false,"color":"gold","text":"✪Arondite✪"}'
+      lore:
+      - '{"italic":false,"color":"yellow","text":"Unimaginable power in the palm of
+        my hands..."}'
+      - '{"italic":false,"color":"gold","text":"✪Artifact✪"}'
+      enchants:
+        DAMAGE_ARTHROPODS: 8
+        FIRE_ASPECT: 8
+        LOOT_BONUS_MOBS: 4
+        MENDING: 1
+        DAMAGE_ALL: 7
+        SWEEPING_EDGE: 6
+        DURABILITY: 6
+      attribute-modifiers:
+        GENERIC_KNOCKBACK_RESISTANCE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.14462058246135712
+          name: ''
+          slot: HAND
+          uuid: a360de04-915b-485f-9a9d-aecfb2e07010
+          operation: 1
+        GENERIC_LUCK:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.10239502042531967
+          name: ''
+          slot: HAND
+          uuid: 8019ac38-9fa7-4280-afdc-189d8555c3d0
+          operation: 2
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 16.186506271362305
+          name: ''
+          slot: HAND
+          uuid: 8a2e65a8-4a6f-4de6-a588-52a357d3b415
+          operation: 0
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -0.7803526520729065
+          name: ''
+          slot: HAND
+          uuid: e3aed5cc-263e-45df-beaa-ca77c7ef4b59
+          operation: 2
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 12.187555313110352
+          name: ''
+          slot: HAND
+          uuid: e70d55c2-2c89-42b8-afe5-47781a97d070
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.14515620470046997
+          name: ''
+          slot: HAND
+          uuid: 01cdfaad-fadd-407b-8e15-21f7d56ecf62
+          operation: 2
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 9.634687423706055
+          name: ''
+          slot: HAND
+          uuid: 30df9c30-02a6-436b-aea3-6b8f71543970
+          operation: 0
+        GENERIC_ARMOR_TOUGHNESS:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 9.499652862548828
+          name: ''
+          slot: HAND
+          uuid: 1d9996e7-9728-498c-b2dc-dfb080dc9a37
+          operation: 0
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: EXPERIENCE_BOTTLE
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"italic":false,"color":"dark_green","text":"Sealed Intelligence"}'
+      lore:
+      - '{"italic":false,"color":"yellow","text":"The essence of a creeper"}'
+      - '{"italic":false,"color":"dark_green","text":"Uncommon"}'
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: FIREWORK_ROCKET
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: FIREWORK
+      power: 1
+  '16':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: FIREWORK_ROCKET
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: FIREWORK
+      power: 1
+  '24':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: FIREWORK_ROCKET
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: FIREWORK
+      power: 1
+  '25':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: FIREWORK_ROCKET
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: FIREWORK
+      power: 1
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"3\tLâm
+        tặc (Deforestation)"}],"text":""}'
+      enchants:
+        Glint: 1
+        DIG_SPEED: 5
+        LOOT_BONUS_BLOCKS: 3
+        MENDING: 1
+        DURABILITY: 3
+      repair-cost: 3
+      Damage: 5
+      PublicBukkitValues:
+        enchantssquared:es_enchantments: '51:1'
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: FISHING_ROD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"italic":false,"color":"gold","text":"✪Lurer✪"}'
+      lore:
+      - '{"italic":false,"color":"yellow","text":"Current record catch: 114kg."}'
+      - '{"italic":false,"color":"gold","text":"✪Artifact✪"}'
+      enchants:
+        KNOCKBACK: 3
+        LUCK: 7
+        LURE: 9
+        MENDING: 1
+        DURABILITY: 6
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 7.487647533416748
+          name: ''
+          slot: HAND
+          uuid: 452eee74-b9f3-47cb-978a-1c1379caf188
+          operation: 0
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -0.767201840877533
+          name: ''
+          slot: HAND
+          uuid: 8d880675-7e0c-44ba-a229-242889de97a5
+          operation: 1
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.7642505168914795
+          name: ''
+          slot: HAND
+          uuid: afcd2e37-f773-4588-a47d-4eafa49e5b8a
+          operation: 1
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 5.586427688598633
+          name: ''
+          slot: HAND
+          uuid: 49ed73ec-6b47-4c09-a77f-1aee8620ab78
+          operation: 0
+        GENERIC_ARMOR_TOUGHNESS:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 4.177779197692871
+          name: ''
+          slot: HAND
+          uuid: f1b38f1e-e6e6-4c2c-8454-1112098a59ff
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.5312908291816711
+          name: ''
+          slot: HAND
+          uuid: b9d35428-f06a-41df-9a0d-3b48991c1ec0
+          operation: 1
+        GENERIC_KNOCKBACK_RESISTANCE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.6911917328834534
+          name: ''
+          slot: HAND
+          uuid: b1e52ea1-bde5-4738-a422-1c5d35a161b0
+          operation: 1
+        GENERIC_LUCK:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.4490242898464203
+          name: ''
+          slot: HAND
+          uuid: 7fd37368-a9d2-41ae-851a-dff3b98917c7
+          operation: 1
+      Damage: 2
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Flame
+        "},{"bold":true,"italic":false,"color":"gold","text":"Bow"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Shoots
+        fire to the heavens!"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Dropped
+        by Ghast Lord"}],"text":""}'
+      enchants:
+        ARROW_FIRE: 4
+        ARROW_INFINITE: 1
+        MENDING: 1
+        ARROW_DAMAGE: 10
+        DURABILITY: 9
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: ELYTRA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Thêm
+        giáp phụ (Plating) III"}],"text":""}'
+      enchants:
+        MENDING: 1
+        DURABILITY: 3
+      repair-cost: 3
+      PublicBukkitValues:
+        enchantssquared:es_enchantments: '42:3'
+  '15':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: FIREWORK_ROCKET
+    amount: 63
+    meta:
+      ==: ItemMeta
+      meta-type: FIREWORK
+      power: 1
+  '20':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"italic":false,"color":"gold","text":"✪Jury✪"}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Unimaginable
+        power in the palm of my hands..."}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"✪Artifact✪"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Trảm
+        thủ (Executioner) II"}],"text":""}'
+      enchants:
+        Glint: 1
+        DAMAGE_ARTHROPODS: 7
+        FIRE_ASPECT: 7
+        LOOT_BONUS_MOBS: 6
+        DAMAGE_ALL: 6
+        DAMAGE_UNDEAD: 4
+        SWEEPING_EDGE: 7
+        DURABILITY: 5
+      attribute-modifiers:
+        GENERIC_LUCK:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.15350176393985748
+          name: ''
+          slot: HAND
+          uuid: 46a21633-43ce-4cde-9f1f-825219be6ed6
+          operation: 2
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 15.098489761352539
+          name: ''
+          slot: HAND
+          uuid: 49029ae7-ccba-4218-8e56-0f6df3af0f8e
+          operation: 0
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -0.906578779220581
+          name: ''
+          slot: HAND
+          uuid: ccb1baef-b4b5-4ee1-bdd7-f8728378e7e8
+          operation: 2
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 15.518595695495605
+          name: ''
+          slot: HAND
+          uuid: 32a71b72-aa49-42ff-82a8-49d627e054dc
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.14673829078674316
+          name: ''
+          slot: HAND
+          uuid: ed213471-47e6-447d-a062-20a1103fedb1
+          operation: 2
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 8.714803695678711
+          name: ''
+          slot: HAND
+          uuid: f7235563-eaf6-4226-a9e6-c238cc1018a9
+          operation: 0
+        GENERIC_ARMOR_TOUGHNESS:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 8.121721267700195
+          name: ''
+          slot: HAND
+          uuid: 9bdff7b8-312b-429b-845f-b81ae8e0f06d
+          operation: 0
+      Damage: 281
+      PublicBukkitValues:
+        enchantssquared:es_enchantments: '37:2'
+  '19':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Obsidian
+        Pickaxe"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Gives
+        user Haste III"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"10\tĐuốc
+        vô hạn (Illuminated)"}],"text":""}'
+      custom-model-data: 1000001
+      enchants:
+        Glint: 1
+        DIG_SPEED: 4
+        MENDING: 1
+        DURABILITY: 5
+      repair-cost: 3
+      Damage: 12
+      PublicBukkitValues:
+        enchantssquared:es_enchantments: '32:1'
+score: 49
+allies: []
+allyrequests: []
+warps:
+- tuyet;world:-67915.59764886257:52.0:-68527.69999998808:-7.0500007:28.049997
+- fram;world:-87377.3606115369:200.0:129924.41738116826:-158.99757:74.99994

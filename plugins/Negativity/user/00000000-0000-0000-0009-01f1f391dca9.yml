@@ -1,0 +1,15 @@
+playername: BE_DHunterScary
+lang: en_US
+minerate-full-mined: 501
+minerate:
+  diamond: 0
+  gold: 0
+  iron: 1
+  coal: 12
+  ancient debris: 0
+better-click: 7
+cheats:
+  nuker: 1
+  scaffold: 1
+  forcefield: 1
+creation-time: 1686483982179

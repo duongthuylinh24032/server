@@ -1,0 +1,16 @@
+playername: dtqdev
+lang: en_US
+minerate-full-mined: 180
+minerate:
+  diamond: 0
+  gold: 0
+  iron: 0
+  coal: 0
+  ancient debris: 0
+better-click: 4
+cheats:
+  speed: 1
+  fly: 724
+  forcefield: 1
+  nofall: 4
+creation-time: 1687173777118

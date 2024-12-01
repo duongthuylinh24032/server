@@ -1,0 +1,139 @@
+# MESSAGE: This config file isn't completely finished yet, I will add more features to this.
+# Additionally, do /reload to make these changes happen in your server.
+# Once a newer version of this plugin is released, you may need to delete the old config file so a newer version can be generated.
+#
+# ENABLE OR DISABLE THE RESOURCE PACK==================================================================================
+# PUT TRUE OR FALSE
+ResourcePack: true
+#CHANGE THE RESOURCE PACK:
+PackLink: https://www.dropbox.com/s/pq7pfzw5j2c3rsy/pack%201.4.7.zip?dl=1
+#Original pack link if you change it and still want the original: https://www.dropbox.com/s/pq7pfzw5j2c3rsy/pack%201.4.7.zip?dl=1
+#
+# ENABLE OR DISABLE RECIPES============================================================================================
+# PUT TRUE OR FALSE
+# Armor
+Chainmail: true
+PlatedChainmail: true
+Emerald: true
+#the redstone chestplate makes weappons that need redstone no longer need redstone.
+RedstoneCore: true
+# Emerald Sword/Tools/Weapons
+EmeraldGear: true
+# Miscellaneous Items
+ChorusBlade: true
+ObsidianPickaxe: true
+FeatherCharm: true
+BlazeCharm: true
+EmeraldCharm: true
+GoldCharm: true
+StarCharm: true
+#really good sword is disabled on default because it is really good
+ReallyGoodSword: false
+# Weapons
+Knives: true
+Rapiers: true
+Katanas: true
+Scythes: true
+Longswords: true
+Spears: true
+# ENABLE OR DISABLE ALL PRISMARINE ARMOR/WEAPON RECIPES (true: enables, false: disables)
+Prismarine: true
+# Bows
+SwordBow: true
+HeavySwordBow: true
+Longbow: true
+Recurvebow: true
+Compoundbow: true
+RepeatingCrossbow: true
+LongswordBow: true
+BurstCrossbow: true
+RedstoneBow: true
+#Shields
+DiamondShield: true
+NetheriteShield: true
+#enable or disable wither skeleton bones: (disabled on default because they don't have a use yet) 
+#this exists because I might add wither bone tools/armor in the future
+WitherBones: false
+#Enable or disable special items:======================================================================================
+#These items are disabled on default because some people might not like them.
+# the vessel is a sword that is a rare drop (1/100 chance) from wither skeletons
+# changing this setting to false will stop it from being dropped
+Vessel: false
+# the infused vessel is gained after killing a wither with a vessel
+# changing this setting to false will stop it from being gained
+InfusedVessel: false
+# the cursed vessel is gained after killing an ender dragon with a vessel
+# changing this setting to false will stop it from being gained
+CursedVessel: false
+# disabled on default because they're not really finished yet
+# obtained by combining the infused and cursed vessels in a smithing table
+# the order of the vessels put in determines the outcome
+AwakenedVesselWhite: false
+AwakenedVesselPurple: false
+#NEW WEAPON TYPE: SABERS===============================================================================================
+# DISABLED ON DEFAULT BECAUSE THEY AREN'T COMPLETELY FINISHED YET
+# also, emerald sabers aren't added yet either
+# this weapon can be dual wielded, there are off handed and main handed versions of each saber
+Sabers: false
+# ENCHANTS=============================================================================================================
+# At the moment, you are unable to change which enchants are on the items, but you can change the level of enchants.
+EnchantmentsOnEmeraldArmor: false
+EmeraldArmorEnchantLevels:
+  Unbreaking: 5
+#
+EnchantsOnEmeraldGear: false
+# THIS INCLUDES ALL EMERALD WEAPONS AND TOOLS
+EmeraldGearEnchantLevels:
+  Unbreaking: 5
+#
+EnchantsChorusBlade: true
+ChorusEnchantLevels:
+  Unbreaking: 5
+  Knockback: 2
+#
+EnchantsSwordBow: true
+SbowEnchantLevels:
+  Smite: 5
+  Unbreaking: 3
+#
+EnchantsHeavySwordBow: true
+HSbowEnchantLevels:
+  Smite: 5
+  Power: 3
+  Unbreaking: 5
+#
+EnchantsPlatedChainmail: true
+PChainEnchantLevels:
+  Unbreaking: 5
+#
+EnchantsObsidianPick: true
+OPickEnchantLevels:
+  Unbreaking: 5
+#
+EnchantsDiamondShield: true
+DShieldEnchantLevels:
+  Unbreaking: 5
+#
+EnchantsNetheriteShield: true
+NShieldEnchantLevels:
+  Unbreaking: 10
+#CUSTOMIZE ITEM ATTRIBUTES (damage, attack speed, etc)==================================================================
+# (This is still a work in progress)
+EmeraldHelmet:
+  Armor: 2
+  BonusHealth: 1
+EmeraldChestplate:
+  Armor: 6
+  BonusHealth: 1
+EmeraldLeggings:
+  Armor: 5
+  BonusHealth: 1
+EmeraldBoots:
+  Armor: 2
+  BonusHealth: 1
+# MAKE NETHERITE WEAPONS REQUIRE INGOTS INSTEAD OF SCRAP TO CRAFT=======================================================
+# PUT TRUE OR FALSE
+NetheriteIngots: false
+#
+# In a later update, I will try to add customizing lore and customizing weapon attributes and bonuses. I might not add customising the bonuses though because I don't know how I would do that.
+# BE SURE TO LET ME KNOW IF ANYTHING ISN'T WORKING RIGHT

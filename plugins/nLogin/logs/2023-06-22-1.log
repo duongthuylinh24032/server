@@ -1,0 +1,21 @@
+[06/22/2023 01:39:06]:           __             _       
+[06/22/2023 01:39:06]:   _ __   / /  ___   __ _(_)_ __  
+[06/22/2023 01:39:06]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[06/22/2023 01:39:06]:  | | | / /__| (_) | (_| | | | | |
+[06/22/2023 01:39:06]:  |_| |_\____/\___/ \__, |_|_| |_|
+[06/22/2023 01:39:06]:                   |___/            
+[06/22/2023 01:39:06]:  By: www.nickuc.com - V 10.1.16
+[06/22/2023 01:39:06]: 
+[06/22/2023 01:39:06]: §3[nLogin] [DEBUG] Detecting hardware and software configurations...
+[06/22/2023 01:39:06]: §3[nLogin] [DEBUG] All settings were loaded in 82 ms.
+[06/22/2023 01:39:06]: §3[nLogin] [DEBUG] Loading the messages_vi.yml message file...
+[06/22/2023 01:39:06]: §3[nLogin] [DEBUG] All plugin messages were loaded in 40 ms (languageByClient=false).
+[06/22/2023 01:39:06]: §3[nLogin] [DEBUG] All proxy settings were loaded in 0 ms.
+[06/22/2023 01:39:06]: §3[nLogin] [DEBUG] Starting logger filter...
+[06/22/2023 01:39:06]: §3[nLogin] [DEBUG] Loading database...
+[06/22/2023 01:39:06]: §3[nLogin] [DEBUG] A plugin conversion is available.
+[06/22/2023 01:39:06]: [nLogin] nLogin was loaded in 821ms.
+[06/22/2023 05:09:44]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `realname` = '.Khoi0709dz', `uniqueId` = fd2ca55a424b3312b9630a7aa8eb5c16,  `premiumId` = null,  `premium` = -1,  `password` = '$SHA512$b1df5cdca7aa0fe72006b3f6ef8b108dff4cde53bf0a52891e6dfeaba0457276657193d5fc94ce318bf644b82661e7ad5c3d1dd069174241daccaecfec6af409$rOJRgHDLPrVfTjiJbUKxtyJt', `address` = '14.191.179.59', `regdate` = 2023-06-18 10:42:40.655, `lastlogin` = 2023-06-22 05:09:44.576, `email` = null, `twitter` = null, `discord` = null, `settings` = '{"settings":[{"value":"OM2XuUIqL9gEYJUcONz6yx1X8U304RlJkv5mXqiZ5m7ACuO6o15ePlLue/2BaSOIsNsft9a+neXYsXkTRVTmrikgmRlNcRYpKdKe23ZvsFbTP+bBssiivwgViiSiezw1mTjIzzReP+YCot9saSA1Raobk7q9e0r5aMrpJ0PZgYWLL9dlPo9hool7BJV0qkDdSbgxsgxZ/onvzADQ3Zm8f+rAZkPOlP7HW+Ga9iIcVGvtOqgabpIrktVKWX+xiwTbzUZL4b8RGPK1/bdTNtGSZy6uuX+GfK+BsB6nHogQ1nu9dSeu1Cp0dbOLL+Qg2rlCOeSG7wTZ0pVZWZST7KdEt5ngfbvcR4v7LSJ/pwBvpEcgaYG6Em0UhLY+E5tqsnvQbNaYSXRdjrXaeN+02utI4nH+vdcwFFnZslb8DxgW/iyNads0xEpI+C8TtaLGJLYNfG08OTU5n9vCC5aueQcTuLN6BEKspLnU9GO5a4Tn5XS7j3n8l8iB1zOUq9rBMqbN0toC6BLfF2H0+VL60HIrgHi2QfSjWT9MD6Krp4i03KLEEKvBkGcHXzO/tGP2bwlV73Y5IdzeSzYWT4GdDucHpZ3gHu71rPT4kAxijPpoYuDsuwW77OfVkCtsVhxpTn1LBWd6c5CouKL57nkTr8lWBugyqwPUeDlWR+PYigBfZMo=:3LRGjD9vtQabB8UepXOlLjDTcaH9DQEH3IZ96vdTCirsPdxrce1oAkCFK+SNqWDOF7va","key":"encrypted"}],"version":0}' WHERE `id` = 9"
+[06/22/2023 05:09:44]: [nLogin] The user .Khoi0709dz has successfully logged in.
+[06/22/2023 06:57:53]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `realname` = '.Khoi0709dz', `uniqueId` = fd2ca55a424b3312b9630a7aa8eb5c16,  `premiumId` = null,  `premium` = -1,  `password` = '$SHA512$b1df5cdca7aa0fe72006b3f6ef8b108dff4cde53bf0a52891e6dfeaba0457276657193d5fc94ce318bf644b82661e7ad5c3d1dd069174241daccaecfec6af409$rOJRgHDLPrVfTjiJbUKxtyJt', `address` = '14.191.179.59', `regdate` = 2023-06-18 10:42:40.655, `lastlogin` = 2023-06-22 06:57:53.316, `email` = null, `twitter` = null, `discord` = null, `settings` = '{"settings":[{"value":"OM2XuUIqL9gEYJUcONz6yx1X8U304RlJkv5mXqiZ5m7ACuO6o15ePlLue/2BaSOIsNsft9a+neXYsXkTRVTmrikgmRlNcRYpKdKe23ZvsFbTP+bBssiivwgViiSiezw1mTjIzzReP+YCot9saSA1Raobk7q9e0r5aMrpJ0PZgYWLL9dlPo9hool7BJV0qkDdSbgxsgxZ/onvzADQ3Zm8f+rAZkPOlP7HW+Ga9iIcVGvtOqgabpIrktVKWX+xiwTbzUZL4b8RGPK1/bdTNtGSZy6uuX+GfK+BsB6nHogQ1nu9dSeu1Cp0dbOLL+Qg2rlCOeSG7wTZ0pVZWZST7KdEt5ngfbvcR4v7LSJ/pwBvpEcgaYG6Em0UhLY+E5tqsnvQbNaYSXRdjrXaeN+02utI4nH+vdcwFFnZslb8DxgW/iyNads0xEpI+C8TtaLGJLYNfG08OTU5n9vCC5aueQcTuLN6BEKspLnU9GO5a4Tn5XS7j3n8l8iB1zOUq9rBMqbN0toC6BLfF2H0+VL60HIrgHi2QfSjWT9MD6Krp4i03KLEEKvBkGcHXzO/tGP2bwlV73Y5IdzeSzYWT4GdDucHpZ3gHu71rPT4kAxijPpoYuDsuwW77OfVkCtsVhxpTn1LBWd6c5CouKL57nkTr8lWBugyqwPUeDlWR+PYigBfZMo=:3LRGjD9vtQabB8UepXOlLjDTcaH9DQEH3IZ96vdTCirsPdxrce1oAkCFK+SNqWDOF7va","key":"encrypted"}],"version":0}' WHERE `id` = 9"
+[06/22/2023 06:57:53]: [nLogin] The user .Khoi0709dz has successfully logged in.

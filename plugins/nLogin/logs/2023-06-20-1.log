@@ -1,0 +1,94 @@
+[06/20/2023 02:14:54]:           __             _       
+[06/20/2023 02:14:54]:   _ __   / /  ___   __ _(_)_ __  
+[06/20/2023 02:14:54]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[06/20/2023 02:14:54]:  | | | / /__| (_) | (_| | | | | |
+[06/20/2023 02:14:54]:  |_| |_\____/\___/ \__, |_|_| |_|
+[06/20/2023 02:14:54]:                   |___/            
+[06/20/2023 02:14:54]:  By: www.nickuc.com - V 10.1.16
+[06/20/2023 02:14:54]: 
+[06/20/2023 02:14:54]: §3[nLogin] [DEBUG] Detecting hardware and software configurations...
+[06/20/2023 02:14:54]: §3[nLogin] [DEBUG] All settings were loaded in 81 ms.
+[06/20/2023 02:14:54]: §4[nLogin] [ERROR] §cCannot load plugins\nLogin\lang\messages_vi.yml config file, aborting load
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'reader', line 161, column 5:
+        hacking-attack-warning:
+        ^
+expected <block end>, but found '<block sequence start>'
+ in 'reader', line 168, column 7:
+          - ""
+          ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104)
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160)
+	at com.nickuc.login.ζσεφπαπυςΨΠΦωλ.a(:93)
+	at com.nickuc.login.ρΣππμζθμπνοΣ.T(:110)
+	at com.nickuc.login.ρΣππμζθμπνοΣ.<init>(:62)
+	at com.nickuc.login.ρΣππμζθμπνοΣ.<init>(:56)
+	at com.nickuc.login.οωζδΠεφκΔχΔδωσρ.<init>(:877)
+	at com.nickuc.login.οωζδΠεφκΔχΔδωσρ.<init>(:867)
+	at com.nickuc.login.ΠιςβΠςοιρσδβε.a(:145)
+	at com.nickuc.login.ΠιςβΠςοιρσδβε.h(:135)
+	at com.nickuc.login.μθοδηοΠνΦΛνξΛ.a(:591)
+	at com.nickuc.login.σχυυισρΣο.f(:31)
+	at com.nickuc.login.φαοδσιγλξςζΨτυ.c(:104)
+	at com.nickuc.login.ωυββακσδτιΠΣν.j(:150)
+	at com.nickuc.login.ρμςχΦβνδιδΦπ.j(:70)
+	at com.nickuc.login.bukkit.nLoginBukkit.j(:58)
+	at com.nickuc.login.πιμΦζΩτχβΦγυξΛ.j(:62)
+	at com.nickuc.login.θΨΛξτΠνΓυιθςσ.al(:282)
+	at com.nickuc.login.ρμςχΦβνδιδΦπ.enable(:47)
+	at nLogin.jar//com.nickuc.login.loader.platform.BukkitLoader.onEnable(BukkitLoader.java:30)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:541)
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.enablePlugin(CraftServer.java:560)
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.enablePlugins(CraftServer.java:474)
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:324)
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1180)
+	at net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:321)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: while parsing a block mapping
+ in 'reader', line 161, column 5:
+        hacking-attack-warning:
+        ^
+expected <block end>, but found '<block sequence start>'
+ in 'reader', line 168, column 7:
+          - ""
+          ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:644)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:166)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:59)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:45)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:140)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:119)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:252)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:186)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:314)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:305)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:286)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:314)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:305)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:286)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:314)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:305)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:286)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:115)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:142)
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575)
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:102)
+	... 28 more
+[06/20/2023 02:14:54]: §3[nLogin] [DEBUG] Loading the messages_vi.yml message file...
+[06/20/2023 02:14:54]: §3[nLogin] [DEBUG] All plugin messages were loaded in 46 ms (languageByClient=false).
+[06/20/2023 02:14:54]: §3[nLogin] [DEBUG] All proxy settings were loaded in 1 ms.
+[06/20/2023 02:14:54]: §3[nLogin] [DEBUG] Starting logger filter...
+[06/20/2023 02:14:54]: §3[nLogin] [DEBUG] Loading database...
+[06/20/2023 02:14:55]: §3[nLogin] [DEBUG] A plugin conversion is available.
+[06/20/2023 02:14:55]: [nLogin] nLogin was loaded in 852ms.
+[06/20/2023 02:16:49]: §3[nLogin] [DEBUG] All settings were loaded in 4 ms.
+[06/20/2023 02:16:49]: §3[nLogin] [DEBUG] Loading the messages_vi.yml message file...
+[06/20/2023 02:16:49]: §3[nLogin] [DEBUG] All plugin messages were loaded in 7 ms (languageByClient=false).
+[06/20/2023 02:16:49]: §3[nLogin] [DEBUG] All proxy settings were loaded in 0 ms.

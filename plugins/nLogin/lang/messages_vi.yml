@@ -1,0 +1,502 @@
+####################################################################################################
+# +----------------------------------------------------------------------------------------------+ #
+# |                                          __             _                                    | #
+# |                                 _ __   / /  ___   __ _(_)_ __                                | #
+# |                                | '_ \ / /  / _ \ / _` | | '_ \                               | #
+# |                                | | | / /__| (_) | (_| | | | | |                              | #
+# |                                |_| |_\____/\___/ \__, |_|_| |_|                              | #
+# |                                                    |___/                                     | #
+# |                                                                                              | #
+# |                      A practical, secure and friendly authentication plugin                  | #
+# |                                                                                              | #
+# |                                © 2022 - Powered by nickuc.com                                | #
+# |                                                                                              | #
+# |                                                                                              | #
+# |  New options are not automatically added in this file. Default values are used               | #
+# |  if an option is not found.                                                                  | #
+# +----------------------------------------------------------------------------------------------+ #
+####################################################################################################
+
+Messages:
+  Title:
+    before-login:
+      title: "&a&lChào Mừng!"
+      subtitle: "&7sử dụng lệnh: /login <mật khẩu>"
+      delays:
+        start: 2
+        duration: 9999
+        end: 6
+    before-register:
+      title: "&a&lChào Mừng!"
+      subtitle: "&7sử dụng lệnh: /register <mật khẩu> <mật khẩu>"
+      delays:
+        start: 2
+        duration: 9999
+        end: 6
+    after-login:
+      title: ""
+      subtitle: "&aBạn đã đăng nhập thành công!"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    after-register:
+      title: ""
+      subtitle: "&aBạn đã đăng nhập thất bại!"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    incorrect-password:
+      title: ""
+      subtitle: "&cmật khẩu không đúng!"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    already-login:
+      title: ""
+      subtitle: "&cBạn đã đăng nhập!"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    already-registered:
+      title: ""
+      subtitle: "&cBạn đã đăng kí!"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    passwords-dont-match:
+      title: ""
+      subtitle: "&cmật khẩu không giống nhau!"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    session-login:
+      title: ""
+      subtitle: "&e Phiên đăng nhập của bạn đã tiếp tục."
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    premium-login:
+      title: ""
+      subtitle: "&e Tài khoản của bạn là premium, đăng nhập thành công."
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    bedrock-login:
+      title: ""
+      subtitle: "&e Truy cập qua Bedrock, đăng nhập thành công."
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    plugin-reload:
+      title: ""
+      subtitle: "&aCác tập tin cấu hình và ngôn ngữ đã được tải lại."
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    backup:
+      title: ""
+      subtitle: "&aSao lưu được thực hiện thành công."
+      delays:
+        start: 2
+        duration: 90
+        end: 6
+    backup-error:
+      title: ""
+      subtitle: "&cKhông thể thực hiện sao lưu."
+      delays:
+        start: 2
+        duration: 90
+        end: 6
+    security-warning:
+      title: ""
+      subtitle: "&cCảnh báo bảo mật mới đã được gửi trong cuộc trò chuyện"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    answer-required:
+      title: ""
+      subtitle: "&e Hãy trả lời câu hỏi được gửi trong phần trò chuyện."
+      delays:
+        start: 2
+        duration: 9999
+        end: 6
+  action-bar:
+    singular: "&cbạn có {0} giây để {đăng nhập/đăng ký}."
+    plural: "&cbạn có {0} giây để {đăng nhập/đăng ký}."
+  delay-kick:
+    register-kick: "&cBạn mất quá nhiều thời gian để đăng ký."
+    login-kick: "&cBạn mất quá nhiều thời gian để đăng nhập."
+  successful-operations:
+    password-changed: "&aMật khẩu của bạn đã được thay đổi thành công."
+    successful-login: "&abạn đã đăng nhập thành công."
+    successful-session-login: "&aphiên đăng nhập của bạn đã được tiếp tục."
+    successful-premium-login: "&aBạn tự động đăng nhập vì bạn đang sử dụng một tài khoản premium."
+    successful-bedrock-login: "&aBạn tự động đăng nhập, vì bạn đang truy cập từ tài khoản Bedrock."
+    successful-register: "&abạn đã đăng ký thành công."
+    forcelogin: "&e bạn đã buộc đăng nhập của {0}"
+    unregister-kick: "&aBạn đã hủy đăng ký thành công.."
+    config-finished: "&aĐã hoàn tất cấu hình."
+    config-cancelled: "&chành động bị hủy."
+  kick-messages:
+    nick-already-registered: "&cBạn không thể nhập bằng nickname {0}&r\n&r&cTên người dùng này đã được đăng ký là {1}&r\n&r\n&r&cĐể nhập, bạn phải sử dụng nickname của mình mà không có chữ hoa/chữ thường"
+    failed-many-times: "&cBạn đã nhập mật khẩu không chính xác."
+    incorrect-password: "&cMật khẩu không chính xác.Vui lòng thử lại."                                        
+    incorrect-answer: "&cCâu trả lời không chính xác.Vui lòng thử lại."
+    wait-server-start: "&cMáy chủ vẫn chưa bắt đầu hoàn toàn. \n&cChờ một thời gian để kết nối."
+    account-blocked: "&cĐịa chỉ của bạn đã bị chặn bởi nghi ngờ hacker. &r\n&r&cthời gian trục xuất còn lại: {0} "
+    invalid-nickname: "&cNickname của bạn không hợp lệ, hãy xóa dấu cách, ký hiệu và ký tự không hợp lệ khỏi tên của bạn."
+    crack-switch: "&7Tài khoản của bạn đã được đánh dấu là&6crack&7. Vui lòng tham gia lại."
+  security-messages:
+    hacking-attack-warning:
+       - ""
+       - "&c&lCẢNH BÁO BẢO MẬT"
+       - "&cHệ thống bảo mật đã chặn một cuộc tấn công hack có thể xảy ra đối với tài khoản của bạn."
+       - "&cĐã thực hiện ba lần đăng nhập không thành công."
+       - ""
+       - "&e&lMẸO:&e Luôn sử dụng các mật khẩu khác nhau từ các máy chủ khác."
+       - ""
+    hacking-attack-warning2:
+      - ""
+      - "&c&lCẢNH BÁO AN NINH"
+      - "&cHệ thống bảo mật đã chặn {0} các cuộc tấn công hack có thể xảy ra đối với tài khoản của bạn."
+      - "&cBa lần đăng nhập không thành công."
+      - ""
+      - "&e&lMẸO:&e Luôn sử dụng các mật khẩu khác nhau từ máy chủ khác."
+      - ""
+    weak-password:
+      - ""
+      - "&cThe registered password is considered unsafe."
+      - "&cUse letters, numbers, and symbols to improve security."
+      - "&cExample password: {0}"
+      - ""
+    security-question-warn-message:
+      - ""
+      - "&c&lCÂU HỎI BẢO MẬT"
+      - "&7Thực hiện lệnh &f/2fa add&7để đăng ký"
+      - "&ccâu hỏi bảo mật&7. Bằng cách đó, bạn"
+      - "&7giảm khả năng bị hack."
+      - ""
+    security-question-add:
+      - ""
+      - "&e {0}"
+      - ""
+      - "&7Nhập&f'cancel'&7để hủy thao tác."
+      - "&7Bấm vào tin nhắn này để tạo câu hỏi khác."
+      - ""
+    security-question-check:
+      - ""
+      - "&aTrước khi xác nhận, hãy kiểm tra lại thông tin:"
+      - ""
+      - "&7{0}:&f'{1}'"
+      - ""
+      - "&aNếu bạn chắc chắn, hãy nhập &f'confirm'&a."
+      - "&e Nếu bạn nhập sai, hãy gõ &f'repeat'&e."
+      - "&cNếu bạn muốn hủy thao tác này, hãy nhập &f'cancel'&c."
+      - ""
+    security-question-request:
+      - ""
+      - "&aXin lỗi, nhưng cần phải có xác nhận danh tính."
+      - "&aTrả lời câu hỏi dưới đây trong phần trò chuyện:"
+      - ""
+      - "&b{0}"
+      - ""
+    security-question-request2:
+      - "&aCâu hỏi tiếp theo..."
+      - ""
+      - "&b{0}"
+      - ""
+  notifications:
+    all-viewed: "&aĐã xem tất cả thông báo."
+    notify-after: "&e Thông báo này sẽ được gửi lại sau {0} phút."
+    notify-buttons: "[&aXác nhận đã đọc//&8Nhắc tôi sau]"
+    notify-buttons-hover: "[&7Bấm để đánh dấu thông báo này là đã đọc.//&7Bấm để nhớ thông báo này sau.]"
+  error-messages:
+    already-login: "&cBạn đã đăng nhập."
+    already-login2: "&cNgười chơi này đã đăng nhập."
+    already-registered: "&cNickname này đã được đăng ký."
+    not-registered: "&cNickname này chưa được đăng ký."
+    no-temporary-code: "&cMã tạm thời chưa được tạo."
+    incorrect-code: "&cMã sai. Vui lòng thử lại."
+    password-dont-match: "&cMật khẩu không giống nhau."
+    need-password-confirmation: "&cBạn phải xác nhận mật khẩu."
+    address-limiter-warning: "&cBạn đã sử dụng hết giới hạn tài khoản cho mỗi ip."
+    rate-limit: "&cĐã vượt quá giới hạn. Vui lòng đợi {0} phút để thử lại."
+    password-same-as-old: "&cMật khẩu đã nhập giống với mật khẩu hiện tại."
+    password-too-large: "&cMật khẩu đã nhập quá lớn."
+    password-too-small: "&cMật khẩu đã nhập quá nhỏ."
+    plugman-block: "&cBạn không thể chạm vào plugin đăng nhập ở đây."
+    inufficient-permissions: "&cBạn không có quyền chạy lệnh này."
+    command-usage: "&cBạn phải sử dụng {0}."
+    already-online: "&cNgười chơi này đã trực tuyến."
+    offline-error: "&cNgười chơi này đang ngoại tuyến."
+    player-command-usage: "&cLệnh này đã bị tắt thông qua bảng điều khiển."
+    console-command-usage: "&cLệnh này chỉ có thể được sử dụng thông qua bảng điều khiển."
+    plugin-reload-message: "&e Plugin đã được tải lại thành công."
+    command-function-disabled: "&cChức năng của lệnh {0} bị tắt."
+    database-error: "&cRất tiếc, chúng tôi không thể hoàn thành thao tác này. Vui lòng thử lại. [SQL FAIL]"
+  twofactor:
+    no-haifactor-registered: "&cBạn chưa có tài khoản {0}."
+    twofactor-already-registered: "&cBạn đã đăng ký {0}."
+    twofactor-register-limit: "&cBạn đã sử dụng hết giới hạn tài khoản có cùng {0}."
+    twofactor-unregistered: "&e {0} của bạn đã được hủy liên kết thành công"
+    confirm-account: "&aTài khoản {0} của bạn đã được đăng ký thành công"
+    confirm-message-sent: "&7Mã xác nhận đã được gửi tới&6{0}&7.\n&8(&f{1}&8) của bạn."
+    check-message: "&aKiểm tra tin nhắn được gửi tới tài khoản được liên kết của bạn."
+    command-delay: "&cĐợi một lúc trước khi thực hiện lại lệnh này."
+    help-command:
+      - ""
+      - "&fStatus: [&a{2} đã đăng ký//&c{2} chưa đăng ký]&f."
+      - ""
+      - " [&a■&7/{0} add:&fĐăng ký {1}.]"
+      - " [&a■&7/{0} remove:&fHủy đăng ký  {1}.]"
+      - " [&a■&7/{0} recover:&fKhôi phục tài khoản của bạn.]"
+      - " [&a■&7/{0} twofactor:&fEnables/disables bật/tắt hai yếu tố.]"
+      - ""
+    switch:
+      enabled: "&aTính năng hai yếu tố đã được kích hoạt."
+      disabled: "&cTính năng hai yếu tố đã hủy kích hoạt."
+    recover:
+      twofactor-not-equal: "&c{0} cung cấp không giống với {0} đã đăng ký."
+      message-sent: "&aMột tin nhắn khôi phục đã được gửi đến tài khoản liên kết của bạn."
+      automatic-change: "&amật khẩu được tự động đổi thành&f'{0}'&a."
+    security-questions:
+      no-question-registered: "&cBạn chưa đăng ký bất kỳ câu hỏi bảo mật nào."
+      invalid-question-id: "&cID đã nhập không hợp lệ hoặc nhỏ hơn hoặc bằng 0."
+      question-does-not-exists: "&cCâu hỏi có id {0} không tồn tại."
+      question-deleteted: "&aCâu hỏi có id {0} đã được xóa thành công."
+      max-questions: "&cBạn đã sử dụng hết giới hạn câu hỏi bảo mật được phép trên máy chủ này."
+      min-questions-recover: "&cBạn cần có ít nhất 3 câu hỏi đã đăng ký để khôi phục tài khoản của mình."
+      help-command:
+        - ""
+        - "&aTrạng thái: [c Chưa đăng ký câu hỏi nào//&a{1} câu hỏi đã đăng ký//&a{1} câu hỏi đã đăng ký]&a."
+        - ""
+        - " [&a■&7/{0} add:&fĐăng ký câu hỏi .]"
+        - " [&a■&7/{0} remove <id>:&fXóa câu hỏi.]"
+        - " [&a■&7/{0} list:&fDanh sách các câu hỏi của bạn.]"
+        - " [&a■&7/{0} recover:&fKhôi phục tài khoản của bạn.]"
+        - ""
+
+    discord:
+      confirm-account:
+        - ""
+        - "&7To complete the linking, you need to confirm your Discord account."
+        - "&7Join to&b{0}&7and type "
+        - "&7the command in the DM of the&f{1}&7bot."
+        - ""
+        - " [&aClick here to get the command with the token.]"
+        - ""
+      account-linked: "&aConfiguration in Discord successfully updated.\n&aYou have been linked with&f{0}&aaccount."
+      verify-message:
+        title: "mật khẩu has been created"
+        description: "nLogin's system generated a confirmation password for the @player account."
+        image: "https://www.nickuc.com/app/content/assets/img/2fa-lock-default.png"
+        fields:
+          - "Command->To authenticate, use the command '/2fa discord @code'."
+      recover-message:
+        title: "Password recovery requested."
+        description: "A password recovery request has been requested for the @player.\nIf it was not you, click on the X reaction to block access."
+        image: "https://www.nickuc.com/app/content/assets/img/2fa-lock-default.png"
+        fields:
+          - "Problems?->In case of problems, use the '/2fa discord <new password> @code' command."
+      suspect-access:
+        title: "Suspicious activity on the @player account."
+        description: "A suspicious login has been detected in the @player account."
+        image: "https://www.nickuc.com/app/content/assets/img/2fa-lock-default.png"
+        fields:
+          - "Access data->Date of attempt: @data @hora"
+          - "Access Information->IP Address: @address"
+          - "The possible invader has been banned->The ip address on this account has been temporarily banned on suspicion of invasion."
+      warn-message:
+        - ""
+        - "&7Perform the command&f/2fa discord associate&7to register"
+        - "&7your&cdiscord&7. By doing so, you"
+        - "&7decrease the chance of being hacked."
+        - ""
+      sync-message:
+        invalid-code:
+          title: "Sign up your Discord"
+          description: "Sorry, but the token you entered is invalid or does not exist."
+          image: "https://www.nickuc.com/app/content/assets/img/2fa-lock-default.png"
+          fields: []
+        success:
+          title: "Sign up your Discord"
+          description: "Your Discord was successfully registered."
+          image: "https://www.nickuc.com/app/content/assets/img/2fa-lock-default.png"
+          fields: []
+      change-address:
+        - ""
+        - "&aSorry, but a confirmation of identity is required."
+        - "&aA security code has been sent to your registered disagreement."
+        - "&aUse the /2fa discord <sent code> command to authenticate yourself."
+        - "&aIf you get the password wrong or you log out, a new code will be generated."
+        - ""
+    twitter:
+      invalid-account: "&cThe entered twitter is invalid."
+      server-twitter: "&cYou cannot use the server's twitter."
+      configure-message:
+        - "The nLogin's system generated a temporary password for the @player account."
+        - ""
+        - "To confirm your account, use the '/2fa twitter @code' command."
+        - "If it wasn't you, ignore this message."
+      verify-message:
+        - "The nLogin's system has generated a confirmation password for the @player account."
+        - ""
+        - "To authenticate, use the '/2fa twitter @code' command."
+        - "If it was not you, change mật khẩu IMMEDIATELY."
+      recover-message:
+        - "To recover your account, use the command /2fa twitter <new password> @code"
+        - ""
+        - "If it wasn't you, disregard this message."
+      suspect-access:
+        - "The nLogin's system has detected suspicious activity on your @player account."
+        - ""
+        - "Date of attempt: @data @hora"
+        - ""
+        - "The ip address on this account has been temporarily banned on suspicion of intrusion."
+      warn-message:
+        - ""
+        - "&7Perform the command&f/2fa twitter associate&7to register"
+        - "&7your&ctwitter&7. By doing so, you"
+        - "&7decrease the chance of being hacked."
+        - ""
+      change-address:
+        - ""
+        - "&aSorry, but a confirmation of identity is required."
+        - "&aA security code has been sent to your registered Twitter account."
+        - "&aUse the /2fa twitter command <sent code> to authenticate."
+        - "&aIf you get the password wrong or you log out, a new code will be generated."
+        - ""
+        - "&7Remember to be following&f@twitter_sv&7no twitter."
+        - ""
+    email:
+      invalid-account: "&cThe entered email is invalid."
+      server-email: "&cYou cannot use the server's email."
+      configure-message:
+        subject: "Confirmation of the account @player"
+        content:
+          - "<h1>"
+          - " Hello, @player!"
+          - "</h1>"
+          - "<p>"
+          - " To complete your email registration process, use the command <strong>\"/2fa email @code\"</strong>."
+          - "</p>"
+          - "<p>"
+          - " If it wasn't you, ignore this message."
+          - "</p>"
+      verify-message:
+        subject: "Login confirmation of the account @player"
+        content:
+          - "<h1>"
+          - " Hello, @player!"
+          - "</h1>"
+          - "<p>"
+          - " To authenticate on the server, use the command <strong>\"/2fa email @code\"</strong>."
+          - "</p>"
+          - "<p>"
+          - " If it was not you, change mật khẩu <strong>IMMEDIATELY</strong>."
+          - "</p>"
+      recover-message:
+        subject: "Recovering the account @player"
+        content:
+          - "<h1>"
+          - " Hello, @player!"
+          - "</h1>"
+          - "<p>"
+          - " To recover your account, use the command <strong>\"/2fa email <new password> @code\"</strong>."
+          - "</p>"
+          - "<p>"
+          - " If it wasn't you, disregard this message."
+          - "</p>"
+      suspect-access:
+        subject: "Suspicious activity on @player account"
+        content:
+          - "<h1>"
+          - " Hello, @player!"
+          - "</h1>"
+          - "<p>"
+          - " nLogin's system detected a suspicious activity on your account."
+          - "</p>"
+          - "<p>"
+          - "<strong>Date of attempt:</strong> @data @hora"
+          - "</p>"
+          - "<p>"
+          - "The ip address has been temporarily banned on suspicion of invasion."
+          - "</p>"
+      warn-message:
+        - ""
+        - "&7Perform the command&f/2fa email associate&7to register"
+        - "&7your&9email&7. By doing so, you"
+        - "&7decrease the chance of being hacked."
+        - ""
+      require-email:
+        - ""
+        - "&7The current server requires you to Nhập a"
+        - "&avalid email address&7to complete authentication."
+        - ""
+        - "&aPlease Nhập your email address in the chat."
+        - ""
+      change-address:
+        - ""
+        - "&a Sorry, but a confirmation of identity is required."
+        - "&aA security code has been sent to your registered email address."
+        - "&aUse the command /2fa email <sent code> to authenticate."
+        - "&aIf you get the password wrong or you log out, a new code will be generated."
+        - ""
+  premium-login:
+    question:
+      - ""
+      - "&e Are you using a premium account?"
+      - "&7(after accepting, you will need to re-join.)"
+      - ""
+      - "[&aYes//&cNo]"
+      - ""
+    already-premium: "&cYour account is already marked as premium."
+    challenge-kick: "&7To confirm that you are using a&apremium account&7, please log in again."
+  bedrock:
+    forms:
+      login:
+        title: "xác thực"
+        content:
+          - "Chào Mừng, @player!"
+          - "Để đăng nhập, vui lòng nhập mật khẩu vào trường bên dưới:"
+          - ""
+          - "[Mật khẩu//Nhập mật khẩu]"
+          - ""
+      register:
+        title: "Register"
+        content:
+          - "Chào Mừng, @player!"
+          - "Để chơi trên máy chủ, bạn cần tạo mật khẩu."
+          - "Vui lòng nhập mật khẩu mong muốn vào trường bên dưới."
+          - ""
+          - "[Mật khẩu//Nhập mật khẩu]"
+          - "[xác nhận//Xác nhận mật khẩu]"
+          - ""
+  other-messages:
+    login-usage-hover: "&7Bấm vào đây để hoàn thành lệnh và đăng nhập nhanh chóng."
+    register-usage-hover: "&7Bấm vào đây để hoàn thành lệnh và đăng ký nhanh."
+    login-usage: "&e sử dụng lệnh&7/login <mật khẩu>&e."
+    register-usage: "&e Sử dụng lệnh&7/register <mật khẩu> <mật khẩu>&e."
+    changepassword-usage: "&e Sử dụng lệnh&7/changepassword <mật khẩu hiện tại> <mật khẩu mới>&e."
+    unregister-usage: "&e sử Dùng lệnh&7/unregister <mật khẩu hiện tại>&e."
+    premium-usage: "&e Sử dụng lệnh&7/premium <mật khẩu hiện tại>&e."
+    crack-usage: "&e Sử dụng lệnh&7/cracked <mật khẩu hiện tại>&e."
+    language-selector:
+      - ""
+      - "&7Chúng tôi đã phát hiện bạn đang sử dụng ngôn ngữ&f{0}&7."
+      - ""
+      - "&e Bạn có muốn thay đổi ngôn ngữ nLogin?"
+      - ""
+      - "[&aYes//&cNo]"
+      - ""

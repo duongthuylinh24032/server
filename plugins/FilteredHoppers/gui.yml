@@ -1,0 +1,68 @@
+# All undefined slots can be used to add items.
+#
+# Available button types:
+#
+#  toggle: Will be replaced with toggle-enabled or toggle-disabled
+#  whitelist: Will be replaced with whitelist-enabled or blacklist-enabled
+#  item: Will be used to show the stored items
+
+inventory-title: "<#ffffff>Filtered Hopper<#/bbbbbb>"
+
+exact-lore:
+  - "&4&l[&r&cKết hợp chính xác&4&l]"
+  - "&cChỉ phù hợp với các mục chính xác"
+  - "&c(Name, lore, enchantments, ...)"
+
+##### Slots
+
+'0': toggle
+'1': whitelist
+'2': arrow 
+'3': arrow 
+'4': arrow 
+'5': arrow 
+'6': arrow 
+'7': arrow 
+'8': arrow 
+'9': item
+'10': item
+'11': item
+'12': item
+'13': item
+'14': item
+'15': item
+'16': item
+'17': item
+'18': item
+'19': item
+'20': item
+'21': item
+'22': item
+'23': item
+'24': item
+'25': item
+'26': item
+##### Items
+toggle-enabled:
+  material: GREEN_WOOL
+  display-name: "&6&ltrạng thái: &r<#00ff00>Đã bật"
+  lore:
+    - "bấm vào đây để <#ff0000>vô hiệu hóa&r tất cả các bộ lọc"
+toggle-disabled:
+  material: RED_WOOL
+  display-name: "&6&ltrạng thái: &r<#ff0000>Đã Tắt"
+  lore:
+    - "bấm vào đây để <#00ff00>kích hoạt&r tất cả các bộ lọc"
+whitelist-enabled:
+  material: WHITE_WOOL
+  display-name: '&6&lChế độ: &r<#ffffff>Whitelist'
+  lore:
+    - "bấm vào đây để chuyển sang <#ff0000>blacklist"
+blacklist-enabled:
+  material: BLACK_WOOL
+  display-name: '&6&lChế độ: &r<#ff0000>Blacklist'
+  lore:
+    - "bấm vào đây để chuyển sang <#ffffff>whitelist"
+placeholder:
+  material: BLACK_STAINED_GLASS_PANE
+  display-name: "&a "
